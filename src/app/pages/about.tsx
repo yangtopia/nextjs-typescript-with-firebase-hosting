@@ -1,7 +1,8 @@
-import App from '../components/App'
+import React from 'react';
+import { AppComponent } from '@components/index';
 
 export default () => (
-  <App>
+  <AppComponent>
     <p>About Page</p>
-  </App>
-)
+  </AppComponent>
+);

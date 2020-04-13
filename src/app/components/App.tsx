@@ -1,10 +1,11 @@
-import Header from './Header'
+import React from 'react';
+import HeaderComponent from './Header';
 
 const App = ({ children }: { children?: any }) => (
   <main>
-    <Header />
+    <HeaderComponent />
     {children}
   </main>
-)
+);
 
-export default App
+export default App;
