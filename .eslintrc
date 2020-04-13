@@ -21,8 +21,8 @@
     "import/resolver": {
       "typescript": {
         "directory": [
-          "./src/app/tsconfig.json",
-          "./src/functions/tsconfig.json"
+          "./tsconfig.json",
+          "./functions/tsconfig.json"
         ]
       }
     }
