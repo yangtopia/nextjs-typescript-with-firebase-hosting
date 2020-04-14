@@ -13,7 +13,7 @@
     "clean": "rimraf \"dist/functions\" && rimraf \"dist/public\"",
     "build-app": "next build",
     "build-public": "cpx \"public/**/*.*\" \"dist/public\" -C",
-    "build-functions": "tsc --project functions",
+    "build-functions": "tsc --project tsconfig.functions.json",
     "lint-app": "eslint \"src/**/*.{js,ts,tsx}\"",
     "typecheck-app": "tsc --project tsconfig.json",
     "lint-functions": "eslint \"functions/**/*.{js,ts,tsx}\"",
